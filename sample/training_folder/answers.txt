@@ -1,0 +1,8 @@
+Pythagorean Theorem?
+a squared plus b squared equals c squared
+Law of Cosines?
+c**2 = a**2 + b**2 - 2 + a = b = cos(gamma)
+Sum of angles in a triangle?
+180 degrees
+Maths to understand machine learning?
+Yes, you do. One needs basics of linear algebra and Statistics to understand ML algorithms.

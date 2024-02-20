@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Weather Info{% endblock %}
+
+{% block content %}
+    <h1>Weather Information for {{ city }} on {{ date }}</h1>
+
+    <form action="/get_response" method="post">
+        <label for="user_input">You:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if temperature is defined and conditions is defined %}
+        <p>Min: {{ temperature.min }}°C</p>
+        <p>Max: {{ temperature.max }}°C</p>
+        <p>Conditions: {{ conditions }}</p>
+    {% else %}
+        <p>Weather information not found.</p>
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}WeatherInfo{% endblock %}
+
+
+{% block content %}
+
+    <form action="/get_response" method="post">
+        <label for="user_input">You:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Send</button>
+    </form>
+
+
+
+
+<p>Weather information not found.</p>
+
+
+
+{% endblock %}

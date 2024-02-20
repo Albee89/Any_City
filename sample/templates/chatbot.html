@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}AllieChat{% endblock %}
+
+{% block content %}
+    <div>
+        <!-- Output the content here using Jinja templating syntax -->
+        <h2>Blogger Locations:</h2>
+        <pre>{{ blogger_locations.head() }}</pre>
+
+        <h2>Columns:</h2>
+        <pre>{{ blogger_locations.columns }}</pre>
+
+        <h2>Birmingham Weather:</h2>
+        <pre>{{ birmingham_weather }}</pre>
+
+        <h2>Missing Values:</h2>
+        <pre>{{ blogger_locations.isna().sum() }}</pre>
+
+        <h2>Metadata:</h2>
+        <pre>{{ blogger_locations.info() }}</pre>
+    </div>
+
+    <form action="/get_response" method="post">
+        <label for="user_input">You:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if user_input %}
+        <p>You: {{ user_input }}</p>
+    {% endif %}
+
+    {% if bot_response %}
+        <p>Bot: {{ bot_response }}</p>
+    {% endif %}
+{% endblock %}
