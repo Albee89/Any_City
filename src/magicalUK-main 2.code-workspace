@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "magicalUK-main 2",
+			"path": "../../Downloads/magicalUK-main 2"
+		},
+		{
+			"name": "my-react-app",
+			"path": ".."
+		},
+		{
+			"name": "react-refresh",
+			"path": "../../Downloads/magicalUK-main/src/react-refresh"
+		},
+		{
+			"name": "ChatBot",
+			"path": "../../PycharmProjects/ChatBot"
+		}
+	],
+	"settings": {}
+}

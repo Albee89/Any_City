@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Lake District National Park",
+        "coordinates": {
+            "latitude": 54.4609,
+            "longitude": -3.0886
+        }
+    },
+    {
+        "name": "Corfe Castle",
+        "coordinates": {
+            "latitude": 50.6395,
+            "longitude": -2.0566
+        }
+    },
+    {
+        "name": "The Cotswolds",
+        "coordinates": {
+            "latitude": 51.833,
+            "longitude": -1.8433
+        }
+    },
+    {
+        "name": "Cambridge",
+        "coordinates": {
+            "latitude": 52.2053,
+            "longitude": 0.1218
+        }
+    },
+    {
+        "name": "Bristol",
+        "coordinates": {
+            "latitude": 51.4545,
+            "longitude": -2.5879
+        }
+    },
+    {
+        "name": "Oxford",
+        "coordinates": {
+            "latitude": 51.752,
+            "longitude": -1.2577
+        }
+    },
+    {
+        "name": "Norwich",
+        "coordinates": {
+            "latitude": 52.6309,
+            "longitude": 1.2974
+        }
+    },
+    {
+        "name": "Stonehenge",
+        "coordinates": {
+            "latitude": 51.1789,
+            "longitude": -1.8262
+        }
+    },
+    {
+        "name": "Watergate Bay",
+        "coordinates": {
+            "latitude": 50.4429,
+            "longitude": -5.0553
+        }
+    },
+    {
+        "name": "Birmingham",
+        "coordinates": {
+            "latitude": 52.4862,
+            "longitude": -1.8904
+        }
+    }
+]
