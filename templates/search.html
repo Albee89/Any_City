@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block title %}Home Page{% endblock %}
+{% block content %}
+
+
+
+<body>
+    <h1>Weather Search</h1>
+    <form method="POST" action="/search">
+        <input type="text" name="city" placeholder="enter location name">
+        <button type="submit">Search</button>
+    </form>
+</body>
+
+
+
+{% endblock %}

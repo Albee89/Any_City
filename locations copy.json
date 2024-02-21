@@ -1,0 +1,13 @@
+{
+    "Lake District National Park": "Birmingham.txt",
+    "Corfe Castle": "Corfe_Castle.txt",
+    "The Cotswolds": "The_Cotswolds.txt",
+    "Cambridge": {"lat": 52.2053, "lng": 0.1218},
+    "Bristol": {"lat": 51.4545, "lng": -2.5879},
+    "Oxford": {"lat": 51.752, "lng": -1.2577},
+    "Norwich": {"lat": 52.6309, "lng": 1.2974},
+    "Stonehenge": {"lat": 51.1789, "lng": -1.8262},
+    "Watergate Bay": {"lat": 50.4429, "lng": -5.0553},
+    "Birmingham": {"lat": 52.4862, "lng": -1.8904}
+}
+
